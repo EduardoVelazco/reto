@@ -1,0 +1,73 @@
+
+.contain{
+  background-color:#212121;
+  height:50px;
+  
+}
+
+.form-group{
+  background-color:#448AFF;
+  width:100%;
+  display:none;
+  
+}
+.form-group{
+  margin: 0 auto;
+  width:400px;
+  padding-top:1%;
+  padding-bottom:100%;
+}
+
+.profile{
+  margin-top:100px;
+  margin-left:80px;
+  width:150px;
+  height:150px;
+  -webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+  background-image: url('https://image.freepik.com/iconos-gratis/la-imagen-del-usuario-con-el-fondo-negro_318-34564.png');
+  background-repeat=no-repeat;
+  background-position:50% 100%;
+  background-size:125%;
+  -webkit-transition-duration: 0.6s; -moz-transition-duration: 0.6s; -o-transition-duration: 0.6s; transition-duration: 0.6s; -webkit-transition-property: -webkit-transform; -moz-transition-property: -moz-transform; -o-transition-property: -o-transform; transition-property: transform; overflow:hidden; 
+}
+
+.profile:hover	 { -webkit-transform:rotate(360deg); 
+-moz-transform:rotate(360deg); -o-transform:rotate(360deg); }
+
+
+input {
+     width:100%;
+    outline: none;
+    padding: 25px;
+  border:none;
+  
+    
+}
+
+input[type=submit] {
+  
+  background: black;
+  border:none;
+  color:white;
+  width:300px;
+  font-size:25	px;
+
+}
+
+input[type=submit]:hover{
+  
+color:grey;
+
+}
+
+.form{
+  
+  width:250px;
+  margin: 0 auto;
+  margin-top:40px;
+}
+
+
+
